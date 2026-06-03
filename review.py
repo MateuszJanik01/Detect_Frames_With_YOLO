@@ -21,7 +21,7 @@ from red_box_tool.detection.engine import detect_super_hybrid
 from red_box_tool.interface.exporter import extract_approved
 from red_box_tool.interface.reviewer import Reviewer
 
-# Import modułu YOLO – opcjonalny (graceful degradation)
+# Import modułu YOLO - opcjonalny (graceful degradation)
 try:
     from red_box_tool.detection import yolo_trainer
     YOLO_AVAILABLE = True
