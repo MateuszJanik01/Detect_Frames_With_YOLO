@@ -36,4 +36,5 @@ Thumbs.db
 # Pliki tymczasowe
 *.tmp
 *.log
-debug_tuning/
+approved.json
+debug_tuning
